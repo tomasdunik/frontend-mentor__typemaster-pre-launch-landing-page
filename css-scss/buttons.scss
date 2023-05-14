@@ -1,0 +1,47 @@
+@import './partials/variables', './partials/functions';
+
+.header__cta {
+  background-color: $color-grey-light;
+  border-radius: 8px;
+  color: $color-blue-dark;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: lineHeight(26, 16);
+  padding: 1.6rem 2.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+.section-hero__link {
+  background-color: $color-orange;
+  border-radius: 8px;
+  color: $color-white;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: lineHeight(26, 16);
+  padding: 1.6rem 2.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s;
+}
+
+// 375px
+@media (max-width: 713px) {
+  .header__cta {
+    padding: 1.8rem 1.5rem;
+  }
+
+  .section-hero__link {
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: lineHeight(26, 16);
+    padding: 1.8rem 1.4rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+}

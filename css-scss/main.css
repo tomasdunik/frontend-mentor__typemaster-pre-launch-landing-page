@@ -1,0 +1,282 @@
+/***********************************************************/
+/*********************** Color Primary *********************/
+/***********************************************************/
+.first-row {
+  display: flex;
+  gap: 12.5rem;
+  margin-bottom: 3rem;
+}
+
+.section-hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 44.5rem;
+  min-height: 48rem;
+}
+
+.section-hero__title {
+  color: #162542;
+  font-size: 5.6em;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.section-hero__description {
+  color: #7b8bad;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.4444444444;
+  margin-bottom: 2.6rem;
+}
+
+.section-hero__cta {
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+}
+
+.section-hero__release {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: uppercase;
+}
+
+.section-hero__image-container {
+  align-items: center;
+  background-image: url(../assets/desktop/image-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  width: 54rem;
+}
+
+.second-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16.8rem;
+}
+
+.section-hero__image-grid {
+  display: flex;
+  gap: 3rem;
+}
+
+.section-hero__image-phone {
+  background-image: linear-gradient(rgba(241, 104, 24, 0.7), rgba(241, 104, 24, 0.7)), url("../assets/desktop/image-phone-and-keyboard.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  width: 100%;
+  width: 25.5rem;
+}
+
+.section-hero__image-glass {
+  background-image: url(../assets/desktop/image-glass-and-keyboard.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  height: 48rem;
+  width: 100%;
+  width: 44.5rem;
+}
+
+.section-hero__keyboard-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 26.5rem;
+  justify-content: center;
+  width: 25.5rem;
+}
+
+.section-hero__keyboard-title {
+  color: #162542;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.125;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.section-hero__keyboard-description {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+}
+
+.section-features {
+  -moz-column-gap: 3.6rem;
+       column-gap: 3.6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.section-features__box {
+  margin-bottom: 12.8rem;
+  width: 25.5rem;
+}
+
+.icon-box {
+  align-items: center;
+  background-color: #f16718;
+  border-radius: 16px;
+  display: flex;
+  height: 6.5rem;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+  width: 6.5rem;
+}
+
+.section-features__title {
+  color: #162542;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 1.1666666667;
+  margin-bottom: 2.4rem;
+  text-transform: uppercase;
+}
+
+.section-features__description {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+}
+
+@media (max-width: 1170px) {
+  .first-row {
+    gap: 6.9rem;
+    margin-bottom: 4rem;
+  }
+  .section-hero__content {
+    max-width: 34.1rem;
+  }
+  .section-hero__image-container {
+    align-items: center;
+    background-image: url(../assets/tablet/image-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    width: 54rem;
+  }
+  .second-row {
+    flex-direction: column;
+    margin-bottom: 14.2rem;
+  }
+  .section-hero__image-phone {
+    background-image: linear-gradient(rgba(241, 104, 24, 0.7), rgba(241, 104, 24, 0.7)), url("../assets/desktop/image-phone-and-keyboard.jpg");
+    background-size: cover;
+    height: 32rem;
+    width: 21.4rem;
+  }
+  .section-hero__image-glass {
+    background-image: url(../assets/tablet/image-glass-and-keyboard.jpg);
+    border-radius: 20px;
+    height: 32rem;
+    width: 44.5rem;
+  }
+  .section-hero__keyboard-info {
+    flex-direction: row;
+    gap: 9.2rem;
+    height: 10.8rem;
+    margin-top: 7.2rem;
+    width: auto;
+  }
+  .section-hero__keyboard-title {
+    margin-bottom: 0;
+  }
+  .section-features {
+    -moz-column-gap: 0;
+         column-gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0;
+  }
+  .section-features__box {
+    margin-bottom: 7.2rem;
+    width: 28.1rem;
+  }
+}
+@media (max-width: 713px) {
+  .first-row {
+    flex-direction: column;
+    margin-bottom: 2.4rem;
+  }
+  .section-hero__content {
+    min-height: 28.6rem;
+    min-width: 32.7rem;
+  }
+  .section-hero__title {
+    font-size: 4.8em;
+    line-height: 1;
+    margin-bottom: 3.2rem;
+  }
+  .section-hero__description {
+    font-size: 1.6rem;
+    line-height: 1.625;
+    margin-bottom: 3.2rem;
+  }
+  .section-hero__cta {
+    gap: 3.2rem;
+  }
+  .section-hero__image-container {
+    background-image: url(../assets/mobile/image-keyboard.jpg);
+    height: 33.1rem;
+    width: 32.7rem;
+  }
+  .second-row {
+    margin-bottom: 11.1rem;
+  }
+  .section-hero__image-grid {
+    gap: 2.4rem;
+  }
+  .section-hero__image-phone {
+    background-image: linear-gradient(rgba(241, 104, 24, 0.7), rgba(241, 104, 24, 0.7)), url("../assets/mobile/image-phone-and-keyboard.jpg");
+    height: 19.3rem;
+    width: 10.5rem;
+  }
+  .section-hero__image-glass {
+    background-image: url(../assets/mobile/image-glass-and-keyboard.jpg);
+    height: 19.3rem;
+    width: 19.8rem;
+  }
+  .section-hero__keyboard-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 26.5rem;
+    justify-content: center;
+    text-align: center;
+    width: 32.7rem;
+  }
+  .section-hero__keyboard-title {
+    width: 25.5rem;
+  }
+  .section-features {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-features__box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6.4rem;
+    text-align: center;
+    width: 32.7rem;
+  }
+  .icon-box {
+    margin-bottom: 4.8rem;
+  }
+}/*# sourceMappingURL=main.css.map */

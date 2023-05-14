@@ -1,0 +1,22 @@
+@import './partials/variables', './partials/functions';
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9.3rem;
+}
+
+// 768px
+@media (max-width: 1170px) {
+  .header {
+    margin-bottom: 6.2rem;
+  }
+}
+
+// 375px
+@media (max-width: 713px) {
+  .header {
+    margin-bottom: 7rem;
+  }
+}

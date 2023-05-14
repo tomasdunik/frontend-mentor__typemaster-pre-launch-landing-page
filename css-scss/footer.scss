@@ -1,0 +1,32 @@
+@import './partials/variables', './partials/functions';
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__text {
+  color: $color-blue-light;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: lineHeight(26, 16);
+}
+
+.footer__brand {
+  font-weight: 700;
+}
+
+// 768px
+@media (max-width: 1170px) {
+  .footer {
+    margin-top: 4rem;
+  }
+}
+
+// 375px
+@media (max-width: 713px) {
+  .footer {
+    margin-top: 0;
+  }
+}

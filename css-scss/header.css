@@ -1,0 +1,20 @@
+/***********************************************************/
+/*********************** Color Primary *********************/
+/***********************************************************/
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9.3rem;
+}
+
+@media (max-width: 1170px) {
+  .header {
+    margin-bottom: 6.2rem;
+  }
+}
+@media (max-width: 713px) {
+  .header {
+    margin-bottom: 7rem;
+  }
+}/*# sourceMappingURL=header.css.map */

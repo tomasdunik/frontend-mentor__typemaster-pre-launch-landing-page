@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <!--————————————————————— METADATA ————————————————————-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Táto webová stránka je vytvorená podľa grafickej predlohy zo stránky Frontend Mentor."
+    />
+
+    <!--————————————————————— TITLE ——————————————————————-->
+    <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+
+    <!--———————————————————— FAVICON —————————————————————-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!--————————————————————— FONT ———————————————————————-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--————————————————————— CSS ————————————————————————-->
+    <link rel="stylesheet" href="./css-scss/general.css" />
+    <link rel="stylesheet" href="./css-scss/buttons.css" />
+    <link rel="stylesheet" href="./css-scss/header.css" />
+    <link rel="stylesheet" href="./css-scss/main.css" />
+    <link rel="stylesheet" href="./css-scss/footer.css" />
+
+    <!--————————————————————— SCRIPT —————————————————————-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jquery.js" defer></script>
+  </head>
+  <body>
+    <div class="website">
+      <!-- ================================================ -->
+      <!-- ==================== HEADER ==================== -->
+      <!-- ================================================ -->
+      <header class="header">
+        <a
+          href="https://tomasdunik.github.io/frontend-mentor__faq-accordion-card/"
+        >
+          <img class="header__logo" src="./assets/shared/logo.svg" alt="logo"
+        /></a>
+        <a class="header__cta" href="#">Predobjednať</a>
+      </header>
+
+      <!-- ================================================ -->
+      <!-- ===================== MAIN ===================== -->
+      <!-- ================================================ -->
+      <main class="main">
+        <!-- ================================================ -->
+        <!-- ================ SECTION - HERO ================ -->
+        <!-- ================================================ -->
+        <section class="section-hero">
+          <div class="first-row">
+            <div class="section-hero__content">
+              <h1 class="section-hero__title">Klávesnica Typemaster</h1>
+              <p class="section-hero__description">
+                Zlepšite svoju produktivitu a hranie bez toho, aby ste museli
+                utrácať veľa peňazí. Inovujte na vysoko kvalitný zážitok z
+                mechanického písania.
+              </p>
+              <div class="section-hero__cta">
+                <a class="section-hero__link" href="#">Predobjednať</a>
+                <p class="section-hero__release">Vychádza 27/5</p>
+              </div>
+            </div>
+            <div class="section-hero__image-container"></div>
+          </div>
+          <div class="second-row">
+            <div class="section-hero__image-grid">
+              <div class="section-hero__image-phone"></div>
+              <div class="section-hero__image-glass"></div>
+            </div>
+            <div class="section-hero__keyboard-info">
+              <h2 class="section-hero__keyboard-title">
+                Bezdrôtová mechanická klávesnica
+              </h2>
+              <p class="section-hero__keyboard-description">
+                Klávesnica Typemaster sa môže pochváliť špičkovou konštrukciou a
+                praktickým dizajnom. Ponúka širokú škálu klávesníc spolu so
+                spoľahlivým bezdrôtovým pripojením.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================================================ -->
+        <!-- ============= SECTION - FEATURES =============== -->
+        <!-- ================================================ -->
+        <section class="section-features">
+          <div class="section-features__box">
+            <div class="icon-box">
+              <img
+                class="section-features__icon"
+                src="./assets/shared/icon-compatible.svg"
+                alt="icon compatible"
+              />
+            </div>
+            <h3 class="section-features__title">
+              Vysoká <br />
+              kompatibilita
+            </h3>
+            <p class="section-features__description">
+              Jednoduché použitie a kompatibilita so všetkými hlavnými značkami
+              počítačov, hernými konzoly a mobilnými zariadenia. Bez potrebnej
+              inštalácie
+            </p>
+          </div>
+
+          <div class="section-features__box">
+            <div class="icon-box">
+              <img
+                class="section-features__icon"
+                src="./assets/shared/icon-bluetooth.svg"
+                alt="icon bluetooth"
+              />
+            </div>
+            <h3 class="section-features__title">
+              Bezdrátovo<br />
+              s bluetooth
+            </h3>
+            <p class="section-features__description">
+              Výkonná 2,4G RF technológia umožňuje bezdrátové pripojenie do
+              vzdialenosti až 10 metrov.
+            </p>
+          </div>
+
+          <div class="section-features__box">
+            <div class="icon-box">
+              <img
+                class="section-features__icon"
+                src="./assets/shared/icon-battery.svg"
+                alt="icon battery"
+              />
+            </div>
+            <h3 class="section-features__title">
+              Vysokokapacitná <br />batéria
+            </h3>
+            <p class="section-features__description">
+              Vstavaná batéria s dlhou výdržou, ktorú nikdy nebudete musieť
+              vymeniť. Užite až 40 hodín na jedn onabitie.
+            </p>
+          </div>
+
+          <div class="section-features__box">
+            <div class="icon-box">
+              <img
+                class="section-features__icon"
+                src="./assets/shared/icon-light.svg"
+                alt="icon light"
+              />
+            </div>
+            <h3 class="section-features__title">RGB <br />podsvietenie</h3>
+            <p class="section-features__description">
+              Vyberte si zo 4 úrovní jasu a rôzneho podsvietenia. Každá klávesa
+              sa dá nastaviť individuálne.
+            </p>
+          </div>
+        </section>
+      </main>
+      <!-- ================================================ -->
+      <!-- ==================== FOOTER ==================== -->
+      <!-- ================================================ -->
+      <footer class="footer">
+        <p class="footer__text">
+          <span class="footer__brand">Typemaster 2021</span> | Všetky práva
+          vyhradené
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

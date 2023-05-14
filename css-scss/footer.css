@@ -1,0 +1,30 @@
+/***********************************************************/
+/*********************** Color Primary *********************/
+/***********************************************************/
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__text {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.625;
+}
+
+.footer__brand {
+  font-weight: 700;
+}
+
+@media (max-width: 1170px) {
+  .footer {
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 713px) {
+  .footer {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=footer.css.map */
