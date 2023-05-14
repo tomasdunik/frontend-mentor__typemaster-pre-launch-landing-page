@@ -17,14 +17,18 @@
   font-weight: 700;
 }
 
-// 768px
+///////////////////////////////
+// @media (max-width: 1170px)
+///////////////////////////////
 @media (max-width: 1170px) {
   .footer {
     margin-top: 4rem;
   }
 }
 
-// 375px
+///////////////////////////////
+// @media (max-width: 713px)
+///////////////////////////////
 @media (max-width: 713px) {
   .footer {
     margin-top: 0;

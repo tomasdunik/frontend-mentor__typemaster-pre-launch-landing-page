@@ -22,7 +22,9 @@ body {
   min-width: 111rem;
 }
 
-// 768px
+///////////////////////////////
+// @media (max-width: 1170px)
+///////////////////////////////
 @media (max-width: 1170px) {
   .website {
     margin: 4.9rem 3.9rem 4.3rem 3.9rem;
@@ -31,7 +33,9 @@ body {
   }
 }
 
-// 375px
+///////////////////////////////
+// @media (max-width: 713px)
+///////////////////////////////
 @media (max-width: 713px) {
   .website {
     margin: 2.2rem 2.4rem 5rem 2.4rem;

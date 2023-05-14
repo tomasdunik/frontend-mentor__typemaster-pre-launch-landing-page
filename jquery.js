@@ -1,4 +1,6 @@
-//Header button
+/****************************/
+/* Header button */
+/****************************/
 $('.header__cta').on('mouseenter', () => {
   $('.header__cta').css({
     backgroundColor: '#162542',
@@ -13,7 +15,9 @@ $('.header__cta').on('mouseleave', () => {
   });
 });
 
-// Hero button
+/****************************/
+/* Hero button */
+/****************************/
 $('.section-hero__link').on('mouseenter', () => {
   $('.section-hero__link').toggleClass('section-hero__link--bg--orange-light');
 });
@@ -30,7 +34,9 @@ $('.section-hero__link').on('mouseleave', () => {
   });
 });
 
-// Section features
+/****************************/
+/* Section features */
+/****************************/
 $('.section-features__box').hide();
 
 $(window).scroll(function () {
